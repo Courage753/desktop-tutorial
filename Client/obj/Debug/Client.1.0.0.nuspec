@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Client</id>
+    <version>1.0.0</version>
+    <authors>Client</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="Npgsql" version="7.0.4" exclude="Build,Analyzers" />
+        <dependency id="Npgsql.EntityFrameworkCore.PostgreSQL" version="7.0.4" exclude="Build,Analyzers" />
+        <dependency id="Npgsql.Json.NET" version="7.0.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\ie10\Desktop\code\Client\bin\Debug\net6.0-windows\Client.runtimeconfig.json" target="lib\net6.0-windows7.0\Client.runtimeconfig.json" />
+    <file src="D:\ie10\Desktop\code\Client\bin\Debug\net6.0-windows\Client.dll" target="lib\net6.0-windows7.0\Client.dll" />
+  </files>
+</package>
